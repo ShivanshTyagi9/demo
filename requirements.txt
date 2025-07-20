@@ -1,3 +1,4 @@
 google-generativeai
 youtube-transcript-api
 Flask==3.1.1
+python-dotenv
