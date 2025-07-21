@@ -2,13 +2,13 @@ from flask import Flask, request, jsonify
 import google.generativeai as genai
 from youtube_transcript_api import YouTubeTranscriptApi, TranscriptsDisabled, NoTranscriptFound
 from urllib.parse import urlparse, parse_qs
-from dotenv import load_dotenv
+#from dotenv import load_dotenv
 import os
 
 app = Flask(__name__)
 
 # load .env file
-load_dotenv()
+#load_dotenv()
 
 genai.configure(api_key=os.getenv("GOOGLE_API_KEY"))
 
