@@ -10,8 +10,8 @@ app = Flask(__name__)
 
 # ==== API Keys ====
 GOOGLE_API_KEY = os.getenv("GOOGLE_API_KEY")
-WS_PROXY_USER = os.getenv("nyofgsvf")
-WS_PROXY_PASS = os.getenv("05djiyzu7c6j")
+WS_PROXY_USER = os.getenv("WS_PROXY_USER")
+WS_PROXY_PASS = os.getenv("WS_PROXY_PASS")
 
 # Validate environment variables
 if not GOOGLE_API_KEY:
